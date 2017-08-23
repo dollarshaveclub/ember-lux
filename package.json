@@ -15,7 +15,8 @@
   "scripts": {
     "build": "ember build",
     "start": "ember server",
-    "test": "ember try:each"
+    "test": "ember try:each",
+    "eslint": "eslint . --fix"
   },
   "dependencies": {
     "ember-cli-babel": "^6.3.0"
@@ -38,6 +39,7 @@
     "ember-load-initializers": "^1.0.0",
     "ember-resolver": "^4.0.0",
     "ember-source": "~2.14.1",
+    "eslint-config-dollarshaveclub": "^2.2.0",
     "loader.js": "^4.2.3"
   },
   "engines": {
