@@ -6,7 +6,8 @@ module.exports = {
   },
   extends: 'dollarshaveclub',
   env: {
-    browser: true
+    browser: true,
+    jest: true,
   },
   rules: {
   }
