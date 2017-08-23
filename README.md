@@ -1,4 +1,4 @@
-# ember-lux
+# ember-lux [![Build Status](https://travis-ci.org/dollarshaveclub/ember-lux.svg?branch=master)](https://travis-ci.org/dollarshaveclub/ember-lux)
 
 This README outlines the details of collaborating on this Ember addon.
 
