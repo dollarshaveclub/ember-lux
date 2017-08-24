@@ -1,8 +1,29 @@
-# ember-lux
+## ember-lux [![Build Status](https://travis-ci.org/dollarshaveclub/ember-lux.svg?branch=master)](https://travis-ci.org/dollarshaveclub/ember-lux)
 
 Easily integrate [SpeedCurve LUX](https://speedcurve.com/features/lux/) into your ember app.
 
-# Configuration
+### Installation
+
+```
+$ npm install ember-lux
+```
+
+### Setup
+
+Be sure to call [`LUX.init()`](https://speedcurve.com/features/lux/#init) in your router's
+`willTransition` hook. For example:
+
+```js
+willTransition (...args) {
+  LUX.init()
+  this._super(...args)
+}
+```
+
+_Note: you can explore the rest of LUX's API [here](https://speedcurve.com/features/lux)_
+
+
+### Configuration
 
 The only config that is required is your LUX ID. You can set your config in `config/environment.js`
 
@@ -12,24 +33,15 @@ Name | Type | Description | Default
 `sampleRate` | `int` | _How many users should be sampled?_ | `1`
 `enabled` | `Boolean` | _Set to `false` to not inject the lux script into the page._ | `true`
 
-## Installation
 
-* `git clone <repository-url>` this repository
-* `cd ember-lux`
-* `npm install`
-
-## Running
-
-* `ember serve`
-* Visit your app at [http://localhost:4200](http://localhost:4200).
-
-## Running Tests
+### Running Tests
 
 * `npm test` (Runs `ember try:each` to test your addon against multiple Ember versions)
 * `ember test`
 * `ember test --server`
 
-## Building
+
+### Building
 
 * `ember build`
 
