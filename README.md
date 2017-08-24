@@ -1,4 +1,4 @@
-# ember-lux
+# ember-lux [![Build Status](https://travis-ci.org/dollarshaveclub/ember-lux.svg?branch=master)](https://travis-ci.org/dollarshaveclub/ember-lux)
 
 Easily integrate [SpeedCurve LUX](https://speedcurve.com/features/lux/) into your ember app.
 
