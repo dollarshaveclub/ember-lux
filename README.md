@@ -20,6 +20,11 @@ willTransition (...args) {
   LUX.init()
   this._super(...args)
 }
+
+didTransition (...args) {
+  LUX.send()
+  this._super(...args)
+}
 ```
 
 _Note: you can explore the rest of LUX's API [here](https://speedcurve.com/features/lux)_
